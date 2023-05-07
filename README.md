@@ -64,8 +64,25 @@ The code demonstrated in the above image represents the loss of a VGG model over
 
 In conclusion, a fruit freshness detection system capable of reliably classifying fruits depending on their freshness condition has been constructed using OpenCV and Python. Using OpenCV image processing tools, the important characteristics from the dataset have been extracted, and machine learning models have been trained to categorize fruits depending on their freshness condition. The hyperparameters of the model have been fine-tuned to maximize its performance and improve its fruit freshness detection accuracy.
 
+## Link for the dataset is given below
+
+Dataset link: https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification
+
 
 ## References
 
-Sharma, V., Jain, M., Jain, T. and Mishra, R., 2022. License plate detection and recognition using openCV–python. In Recent Innovations in Computing: Proceedings of ICRIC 2021, Volume 1 (pp. 251-261). Singapore: Springer Singapore.
-Le, C. and Mohd, T.K., 2022, June. Facial Detection in Low Light Environments Using OpenCV. In 2022 IEEE World AI IoT Congress (AIIoT) (pp. 624-628). IEEE.
+https://www.mdpi.com/2223-7747/12/4/790/pdf
+
+https://www.mdpi.com/1424-8220/22/21/8192
+
+https://www.irjmets.com/uploadedfiles/paper/volume2/issue_6_june_2020/1554/1628083042.pdf
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5017387/
+
+https://www.irjet.net/archives/V7/i5/IRJET-V7I51254.pdf
+
+https://www.researchgate.net/publication/368377088
+
+https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification
+
+
