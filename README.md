@@ -29,27 +29,34 @@ This code is used to get the images from a directory and put them into an array.
 
 ## Figure 2: Visualizing the images
 
-(Source: Developed by the learner)
+![image](https://user-images.githubusercontent.com/122952070/236652119-ab3580ab-d5b0-4a40-b4cc-3130ad56caa5.png)
+
 This code displays the photos included in the ndarray "arr img" The code begins by declaring the function img_disp, which accepts a single input "X," followed by an if statement. If the initial dimension of the array is 36, a 6x6 plot is generated using the plot function of the matplotlib module with a 40X60 figure size. Next, the loop is begun to plot each picture in the array on the corresponding plot and set the plot title to the name of the fruit saved in list_fruits. The plot is then presented. If the first dimension of the array is not 36, the error message "Cannot plot" is displayed. The function with the array of arguments is then invoked at the conclusion of the code.
 
 ## Figure 3: Generating the data of the images
 
-(Source: Developed by the learner)
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/122952070/236652128-348a05b1-781a-451a-bfd0-979b1a0385f0.png">
+
+
 This code creates the datagen and datagen1 ImageDataGenerator objects. Many factors in datagen govern “picture alteration, including rotation range, width, height, shear and zoom shifts, as well as horizontal and vertical flipping”. The rescale parameter rescales the pixel intensity values, while the preprocessing function parameter applies picture preprocessing functions such as VGG16 or Inception. The simpler datagen1 has just a rescale parameter and a preprocessing function, thus the photos can only be rescaled and preprocessed and can not be further modified.
 
 ## Figure 4: Classifying the images 
 
-(Source: Developed by the learner)
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/122952070/236652134-91b5b086-c7cf-4263-b731-c227c81df836.png">
+
 This code generates data for a Deep Learning (DL) model where the train gen variable is initialized by the Keras method datagen.flow from directory(). It automates the generation of batches of enhanced data from the directory containing the train pictures. The target size is then set to [224,224], and the color mode is set to RGB. The classes must be configured as a list of categorical data, and the batch size must be set to 32. Similarly, datagen.flow from directory () likewise initializes the val gen variable with the same goal size, color mode, class mode, and batch size. 
 
 ## Figure 5: Accuracy of the model
 
-(Source: Developed by the learner)
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/122952070/236652152-7cb621d5-2fc7-41c3-9e8f-4bbf7af8ee43.png">
+
+
 This code illustrates the Model Accuracy notion using a graph created from the vgg history object's data. The graph is drawn using the 'accuracy' and 'val accuracy' keys of the vgg history object. Model Accuracy is the title of the graph, with Epochs and Accuracy labeling the x- and y-axes, respectively. In addition, a legend is provided showing whether the displayed line corresponds to 'Acc' or 'Val' data. 
 
 ## Figure 6: Model Loss
 
-(Source: Developed by the learner)
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/122952070/236652158-ff785c9a-377c-4e0c-b918-c62047ae4461.png">
+
 The code demonstrated in the above image represents the loss of a VGG model over time. The lines of code use the function plt.plot to plot the training loss and validation loss histories. The two losses are labeled after the xlabel and ylabel, which indicate what is being plotted on the graph, are explained. Using the command legend, the title of the graph and the names of the several plots are specified. 
 
 ## Conclusion
