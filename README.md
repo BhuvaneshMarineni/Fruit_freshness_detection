@@ -1,5 +1,5 @@
-# Fruit_freshness_detection_computerVvision
-Fruit fresheness detection
+# Fruit_freshness_detection
+
 
 ## Bhuvanesh Marineni 
 
